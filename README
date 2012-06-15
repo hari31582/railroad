@@ -1,0 +1,30 @@
+== Railroad problem
+
+ This solution will help to find the shortest distance among the cities and available routes which are connected thoes cities
+ 
+== Classes used 
+ 1. "City" - This class will represent city.This is just placeholder for city.
+ 2. "Route" - This class will hold 3 attributes start_city , end_city and distance between two cities. so one routes has two cities
+ 3. "RouteMap" - This class is the collection of routes and has all logic into it.
+ 
+== Environment  Needed
+
+  1. Ruby 1.8.7
+  2. rspec 1.2.6
+
+== How to run program
+
+  1. Go to root of application
+
+    c:\railroad>
+  2. run the rails road problem
+
+    c:\railroad>ruby bin\railroad.rb
+
+    It will take queries from user too.
+  3. run testcases
+
+    c:\>spec spec\test_suite_rspec.rb
+
+ 
+
